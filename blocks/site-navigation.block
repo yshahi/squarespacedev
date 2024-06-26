@@ -1,5 +1,12 @@
 <nav class="site-navigation">
-  <ul class="site-navigation-list">
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  
+  <ul class="site-navigation-list nav-menu" id="nav-menu">
+    <div class="close-btn" onclick="toggleMenu()">&times;</div>
     {.repeated section items}
 
       <li class="site-navigation-item {.section active} active-link{.end}">

@@ -24,3 +24,13 @@
   window.addEventListener('resize', loadAllImages);
 
 }());
+
+/* Hamburger menu */
+
+function toggleMenu() {
+  const navMenu = document.getElementById('nav-menu');
+  const body = document.body;
+    
+  navMenu.classList.toggle('active');
+  body.classList.toggle('no-scroll');
+}
