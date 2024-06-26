@@ -23,9 +23,8 @@
   // The event subscription that reloads images on resize
   window.addEventListener('resize', loadAllImages);
 
-}());
 
-/* Hamburger menu */
+  /* Hamburger menu */
 
 function toggleMenu() {
   const navMenu = document.getElementById('nav-menu');
@@ -34,3 +33,5 @@ function toggleMenu() {
   navMenu.classList.toggle('active');
   body.classList.toggle('no-scroll');
 }
+
+}());
